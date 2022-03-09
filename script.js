@@ -10,11 +10,13 @@ let output_container = document.getElementById("output-container");
 //    a) En som länkar till taggen med id 'title'
 //    b) En som länkar till taggen med id 'first_paragraph'
 //    c) En som länkar till taggen med id 'second_paragraph'
-
+let title = document.getElementById("title");
+let first_paragraph = document.getElementById("first_paragraph");
+let second_paragraph = document.getElementById("second_paragraph");
 // För att ändra text i en tagg använder ni innerHTML
 // Ex för att ändra på titeln title.innerHTML = "Aaaaa";
 // 2. Ändra på titeln så det står "Javascript är coolt"
-
+title.innerHTML = "Javascript är coolt";
 // 3. Byt färg på den första och den andra paragrafen (för att byta färg
 // används style.color)
 
